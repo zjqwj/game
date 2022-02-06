@@ -18,7 +18,7 @@ export abstract class Duck {
         console.log('all ducks float, even decoys!')
     }
     public setFlyBehavior(fb: FlyBehavior) {
-        this.flyBehavior = fb;
+        this.flyBehavior = fb; 
     }
     public setQuackBehavior(fb: QuackBehavior) {
         this.quackBehavior = fb;
